@@ -1,0 +1,35 @@
+   body{
+   	background-color: #000;
+   }
+   .navbar {
+ 		background-color: #f5a11b;
+	}
+   .divider{
+   		background-color: #eee;
+   }
+   #intro{
+        background-image: url('../imgc/3.jpg');
+        height: 400px;
+      }
+    @media(min-width:57px) {
+    	#intro {
+    		height:600px;
+    	}
+    }
+    
+	#book{
+		background-image:url("../imgc/4.jpg");
+		height: 500px;
+		background-size: cover;
+  }
+  .class1{
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+
+  }
+  ul{
+    display: flex;
+    justify-content:flex-end;
+  }
+
